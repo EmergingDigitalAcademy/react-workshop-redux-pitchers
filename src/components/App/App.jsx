@@ -7,11 +7,12 @@ import PitchersList from '../Pitchers/PitchersList';
 import CatchersList from '../Catchers/CatchersList';
 import PitcherForm from '../Pitchers/PitcherForm';
 import CatcherForm from '../Catchers/CatcherForm';
-
+import './App.css';
+//cursor:url(https://via.placeholder.com/150),auto
 //no cap, this clean
 function App() {
   return (
-    <div>
+    <div style={{cursor:'https://via.placeholder.com/150' }}>
       <Header />
       <OnTheMound />
       <BehindThePlate />
